@@ -1,0 +1,294 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": ["Hello to you too!", "Hi!"]
+    },
+    {"tag": "VNR",
+      "patterns": [
+        "Tell me about VNRVJIET",
+        "Give me information about VNRVJIET"
+      ],
+      "responses": [
+        "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (VNRVJIET) is an engineering college in Hyderabad, India recognized by All India Council for Technical Education(AICTE) and affiliated to the Jawaharlal Nehru Technological University, Hyderabad."]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "What are different clubs in VNRVJIET?" ,
+        "what are extra-circular activities in VNRVJIET?",
+        "clubs in vnr"
+      ],
+      "responses": [
+        "There are 9 clubs 1)STENTORIAN - ENGLISH LITERATURE CLUB 2) VIGNANA JYOTHI SAHITIVANAM - TELUGU LITERATURE CLUB ;3)VJ THEATRO ; 4) DRAMATRIX;5)SCINTILLATE -PHOTOGRAPHY;6)CREATIVE ARTS - ARTS CLUB; 7)LIVE WIRE- DANCE CLUB ; 8) NSS - SOCIAL SERVICE CLUB ; 9)CRESCENDO- MUSIC CLUB" ,
+        "There are total 9 extra circular activities clubs in VNRVJIET and many more co circular clubs."
+      ]
+    }, 
+    {
+      "tag": "fest",
+      "patterns": [
+        "What are different fests in VNRVJIET?" ,
+        "what are extra-circular activities in VNRVJIET?",
+        "clubs in vnr"
+      ],
+      "responses": [
+        "VNRVJIET is well known for its fests. It is having a technical fest named convergence. It has a cultural fest named scintillations"
+      ]
+    }, 
+    {
+      "tag": "department",
+      "patterns":[
+        "What are the different departments in VNRVJIET?",
+        "Different branches in VNRVJIET?",
+      "How many departments are there in VNRVJIET?"], 
+      "responses": [
+        "There are 9 Departments in VNRVJIET 1)IT 2)CIVIL 3)EEE 4)MECHANICAL 5)ECE 6)CSE 7)EIE 8)AE 9)HUMANITY AND SCIENCES"]
+        },
+    {
+      "tag":"admissions",
+      "patterns":[
+        "what is the admission process at vnrvjiet?","How can I get into VNRVJIET?"
+      ],
+      "responses":["A Student at vnr can be admitted in 3 ways 1)A-cat(eamcet,spot admissions) 2)B-cat(jee main) 3)Nri(12th marks).Last year cutoff ranks are provided for reference http://www.vnrvjiet.ac.in/download/admissions/FIRST_LAST_EAMCET_2019_RANKS.pdf"]
+    },
+      
+    {
+      "tag": "IT HOD",
+      "patterns":[
+        "Who is the HOD of IT department?", 
+        "Who is the Head of the department in IT department?",
+        "Who is the Head of the department of Information Technology?",
+        "What is IT HOD name?",
+        "who is the head of IT department?"
+      ],  
+      "responses": [
+        "IT H.O.D - Dr. G. Suresh Reddy",
+        "The head of IT department is Dr. G. Suresh Reddy.",
+      "Dr. G. Suresh Reddy is head of IT department "]
+    },
+    {
+      "tag": "CIVIL HOD",
+      "patterns":[
+        "Who is the HOD of CIVIL department?", 
+        "Who is the Head of the department in civil department?",
+        "Who is the Head of the department of Information Technology?",
+        "What is civil HOD name?",
+        "who is the head of IT department?"
+      ], 
+      "responses": ["CIVIL H.O.D - Dr. A. Mallika","The head of the Civil department is Dr. A. Mallika","Dr.A.Mallika is the head of the civil department"]
+    },
+    {
+      "tag": "EEE HOD",
+      "patterns":[
+        "Who is the HOD of EEE department?",
+        "Who is the Head of the department in EEE department?",
+        "Who is the Head of the department of Electical and Electronics Engineering ?",
+        "What is EEE HOD name?",
+        "who is the head of EEE department?"
+        
+      ], 
+      "responses": ["EEE H.O.D - Dr. Poonam Upadhyay","The head of the EEE department is Dr. Poonam Upadhyay","Dr. Poonam Upadhyay is the head of the civil department"]
+    },
+    { 
+      "tag": "Mechanical HOD",
+      "patterns":[
+        "Who is the HOD of MECHANICAL department?","Who is the Head of the department in Mechanical department?",
+        "Who is the Head of the department of mechanical ?",
+        "What is Mechanical HOD name?",
+        "who is the head of mechanical department?"],
+      "responses": ["MECHANICAL H.O.D - Dr.Srinivas Guptha","The head of the Mechanical department is Dr. Srinivas Guptha","Dr. Srinivas Guptha is the head of the civil department"]
+    },
+    {
+      "tag": "ECE HOD",
+      "patterns":["Who is the HOD of ECE department?", "Who is the Head of the department in ECE department?",
+        "Who is the Head of the department of ECE ?",
+        "What is ECE HOD name?",
+        "who is the head of ECE department?"], 
+      "responses": ["ECE H.O.D - Dr.Y.Padma Sai","The head of the ECE department is Dr.Y.Padma Sai","Dr.Y.Padma Sai is the head of the ECE department"]
+    },
+    {
+      "tag": "CSE HOD",
+      "patterns":["Who is the HOD of CSE department?", "CSE HOD?","Who is the Head of the department in CSE department?",
+        "Who is the Head of the department of CSE ?",
+        "What is CSE HOD name?",
+        "who is the head of CSE department?"], 
+      "responses": ["CSE H.O.D - Dr.B V Kiran Mai","The head of the CSE department is Dr.B V Kiran Mai","Dr.B V Kiran Mai is the head of the CSE department"]
+    },
+    {
+      "tag": "IT Department",
+      "patterns": ["Give me information about IT Department","Can I know about IT department?","What is the intake of IT Department?","When is IT department established?"],
+      "responses": ["The department of Information Technology was established in the year 1997 with an annual intake of 60, increased to 180 in the year 2017."]
+    },
+    {
+      "tag": "CIVIL Department",
+      "patterns": ["Give me information about CIVIL Department","Can I know about Civil department?","What is the intake of Civil Department?","When is Civil department established?"],
+      "responses": ["The Department of Civil Engineering was started in the year 2001 with an annual intake of 60 undergraduate students which was subsequently raised to the present annual intake of 120 students. It also offers three PG Courses in Structural Engineering, Geo-Technical Engineering and Highway Engineering."]
+    },
+    {
+      "tag": " EEE Department",
+      "patterns": ["Give me information about EEE Department","Can I know about EEE department?","What is the intake of EEE Department?"],
+      "responses": ["The Department of Electrical & Electronics Engineering offers Undergraduate and Postgraduate programs in Electrical Engineering Discipline.The Department is recognized as a Research Centre in Electrical and Electronics Engineering."]
+    },
+    {
+      "tag": "MECHANICAL Department",
+      "patterns": ["Give me information about MECHANICAL Department","Can I know about Mechanical department?","What is the intake of mechanical Department?","When is mechanical department established?"],
+      "responses": ["Department of Mechanical Engineering is one of the oldest departments established at the time of inception of the institute in the year 1995. The department currently offers an undergraduate program - B.Tech. in Mechanical Engineering and two postgraduate programs - M.Tech. in Advanced Manufacturing Systems and M.Tech. in CAD/CAM. Department is also recognized as ‘Research Center’ by the JNTU Hyderabad for offering Ph.D. program."]
+    },
+    {
+      "tag": "ECE Department",
+      "patterns": ["Give me information about ECE Department","Can I know about ECE department?","What is the intake of ECE Department?","When is ECE department established?"],
+      "responses": ["The Department of ECE was founded in 1995 and is recognized by JNTU Hyderabad as a centre for Research and Development activities. The research Centre is of internationally acclaimed standards, predominantly in the areas of Communications, Signal Processing, Microelectronics and IoT.Presently, the Department has an intake of 240 Students for UG programme and an intake of 18 students for PG programme"]
+    },
+    {
+      "tag": "CSE Department",
+      "patterns": ["Give me information about CSE Department","Can I know about CSE department?","What is the intake of CSE Department?"],
+      "responses": ["The department of computer science and engineering has a vibrant body of faculty with 73 in number (7 Professors, 9 Associate Professors and 57 Assistant Professors associated with the additional support of non-teaching and technical staff) intends to set the standards for the quality of education for approaching years."]
+    },
+        
+    {
+      "tag": "EIE Department",
+      "patterns": ["Give me information about EIE Department","Can I know about EIE department?","What is the intake of EIE Department?","When is EIE department established?"],
+      "responses": ["The B.Tech, Electronics and Instrumentation Engineering (EIE) was started during the academic year 1999-2000 with an intake of 60 and has been enhanced to 120 during the academic year 2011-2012. Furthermore, M.Tech in Electronics and Instrumentation (E & I) was started during the academic year 2010-2011 respectively with the approval of AICTE and affiliated to JNTUH."]
+    },
+    {
+      "tag": "AE Department",
+      "patterns": ["Give me information about AE Department","Can I know about AE department?","What is the intake of AE Department?","When is AE department established?"],
+      "responses": ["The department of automobile engineering commenced with an undergraduate programme in the year 2010. Keeping itself up-to-date with the latest developments in the field with a dedicated team of highly qualified and experienced faculty in various streams of automobile engineering.The department has an intake of 60 students for UG programme."]
+    },
+    {
+      "tag": "H&S Department",
+      "patterns": ["Give me information about H&S Department","Can I know about H&S department?","What is the intake of H&S Department?","When is H&S department established?"],
+      "responses": ["The Humanities and Sciences Department started functioning right from the inception of the Institute in the year 1995. The Department comprises five disciplines namely, English, Mathematics, Physics, Chemistry and Management Sciences."]
+    },
+    {
+      "tag": "IT intake",
+      "patterns": ["What is total intake of students in IT?" ],
+      "responses": ["The department has an intake of 180 students FOR UG programme." ]
+    },
+    {
+      "tag": "CSE intake",
+      "patterns": ["What is total intake of students in CSE?" ],
+      "responses": ["The department has an intake of 240 students FOR UG programme."]
+    },
+    {
+      "tag": "CSBS Intake",
+      "patterns": ["What is total intake of students in CSBS" ],
+      "responses": ["The department has an intake of 60 students FOR UG programme."]
+    },
+    {
+      "tag": "CSE ( Data Science ) Intake",
+      "patterns": ["What is total intake of students in CSE ( Data Science )" ],
+      "responses": ["The department has an intake of 60 students FOR UG programme."]
+    },
+    {
+      "tag": "CSE ( Artificial Intelligence and Machine Learning ) Intake",
+      "patterns": ["What is total intake of students in CSE ( Artificial Intelligence and Machine Learning )" ],
+      "responses": ["The department has an intake of 60 students FOR UG programme."]
+    },
+    {
+      "tag": "CSE ( Artificial Intelligence and Machine Learning ) Intake",
+      "patterns": ["What is total intake of students in CSE ( Artificial Intelligence and Machine Learning )" ],
+      "responses": ["The department has an intake of 60 students FOR UG programme."]
+    },
+
+    {
+      "tag": "CSE ( Internet of Things ) Intake",
+      "patterns": ["What is total intake of students in CSE ( Internet of Things )?" ],
+      "responses": ["The department has an intake of 60 students FOR UG programme."]
+    },
+    {
+      "tag": "ECE intake",
+      "patterns": ["What is total intake of students in ECE?" ],
+      "responses": ["The department has an intake of 240 students FOR UG programme."]
+    },
+    {
+      "tag": "EEE intake",
+      "patterns": ["What is total intake of students in EEE?" ],
+      "responses": ["The department has an intake of 120 students FOR UG programme."]
+    },
+    {
+      "tag": "Mechanical intake",
+      "patterns": ["What is total intake of students in ME?" ],
+      "responses": ["The department has an intake of 120 students FOR UG programme."]
+    },
+    {
+      "tag": "civil intake",
+      "patterns": ["What is total intake of students in civil?" ],
+      "responses": ["The department has an intake of 120 students FOR UG programme."]
+    },
+    {
+      "tag": "EIE intake",
+      "patterns": ["What is total intake of students in EIE?" ],
+      "responses": ["The department has an intake of 120 students FOR UG programme."]
+    },
+    {
+      "tag": "AE intake",
+      "patterns": ["What is total intake of students in AE?" ],
+      "responses": ["The department has an intake of 60 students FOR UG programme."]
+    },
+        
+    {
+      "tag": "placement summary",
+      "patterns": ["Placement summary" ,"which department have highest placements?", "Give me information about placements at VNRVJIET"],
+      "responses": ["Visit http://www.vnrvjiet.ac.in/placement.php"]
+    },
+    {
+      "tag": "placement package",
+      "patterns": ["which company provides highest package at VNRVJIET?","highest package" ],
+      "responses": ["Amazon SDE Offered about 28.75 Lakhs per annum package."]
+    },
+    {
+      "tag": "placement companies",
+      "patterns": ["How many companies visited VNRVJIET?" ],
+      "responses": ["85 Global Companies (26 Core Companies) Recruited 955 Students from 2020 Graduating Batch."]
+    },
+    {
+      "tag":"placement preparation",
+      "patterns":["how to start placements preparation?","what is the placement written test pattern?"],
+      "responses":["All the best for your placements,please visit https://tnp.vnrvjiet.ac.in/login"]
+    },
+    {
+      "tag": "Hostel details",
+      "patterns": ["Can I know the details about VNRVJIET hostel?","Does VNRVJIET have college hostel?","VNR Hostel details","VNRVJIET hostel details","VNR hostel information" ],
+      "responses": ["http://vnrvjiet.ac.in/hostel.php"]
+    },
+    {
+      "tag": "staff details",
+     "patterns": ["Can I get the details of Principal & Faculty Members at VNRVJIET?","faculty details at vnr"],
+      "responses": ["http://vnrvjiet.ac.in/jntudept.pdf"]
+    },
+        
+    {
+      "tag":"eduprime",
+      "patterns":["how to check my attendance?","how to select open elective?","where to check my mid marks?","how to give feedback?"],
+      "responses":[""]
+    },
+    {
+      "tag":"food",
+      "patterns":["what types of food available at vnr?","what kind of food is available at vnr?"],
+      "responses":["we have different types of stalls like 1)fast food 2)bakery 3)soft drinks 4)Regular meals 5)coffee shop 6)cafeteria"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+  ]
+}
