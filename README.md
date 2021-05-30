@@ -5,10 +5,17 @@ The most well known chatbots currently are voice chatbots: Alexa and Siri. Howev
 
 Techniques and methods used:
 Data preparation : JSON filed prepared based on use case.(VNRVJIET COLLEGE QUERIES)
+
 Data Pre processing: Stemming and Tokenization
+
 Feature extraction/ Feature engineering : Bag of words
+
 Neural Network : Using tflearn - Deep neural network
+
 ML model used: Regressor
+
 Ranking: Gradient descent (Batch) -- main functionality is carried by epoches
+
 Additional features added: Speech recognition using Pyttsx3 library
+
 GUI - Tkinter
