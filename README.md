@@ -21,7 +21,9 @@ Additional features added: Speech recognition using Pyttsx3 library
 GUI - Tkinter
 
 
-![image](https://user-images.githubusercontent.com/47324169/120100882-c7eab100-c160-11eb-99ed-93d49357ff7e.png)
+     ![image](https://user-images.githubusercontent.com/47324169/120100882-c7eab100-c160-11eb-99ed-93d49357ff7e.png)
+
+LOSS
 
 ![image](https://user-images.githubusercontent.com/47324169/120810843-03beb580-c569-11eb-8ca4-695f8d5008c0.png)
 
