@@ -44,20 +44,20 @@
                         ],
                         "context_set": ""
                 },
-                {"tag": "college",
+                {"tag": "VNRVJIET",
                   "patterns": [
                        "Tell me about VNRVJIET",
                         "Give me information about VNRVJIET?",
-                        "History of college",
+                        "History of VNRVJIET",
                         "when was vnrvjiet founded?",
                         "about VNRVJIET?",
                         "Ranking of VNRVJIET?",
-                        "College ranking",
+                        "VNR ranking",
                         "Information on VNR",
                         "Ranking of VNR",
                         "Rank of vnr",
                         "rank of vnrvjiet",
-                        "rank of college",
+                        "rank of this college",
                         "significance of college",
                         "significance of VNR",
                         "Significance of VNRVJIET",
@@ -122,6 +122,21 @@
                         ],
                         "context_set": ""
                 },
+                {
+                        "tag": "IT HOD",
+                        "patterns":[
+                          "Who is the HOD of IT department?", 
+                          "Who is the Head of the department in IT department?",
+                          "Who is the Head of the department of Information Technology?",
+                          "What is IT HOD name?",
+                          "who is the head of IT department?"
+                        ], 
+                        "responses": [
+                          "IT HOD - Dr. G. Suresh Reddy",
+                          "The head of IT department is Dr. G. Suresh Reddy.",
+                        "Dr. G. Suresh Reddy is head of IT department and visit  http://www.vnrvjiet.ac.in/hodit.pdf to know more."]
+                      },
+                  
                 {
                         "tag": "number",
                         "patterns": [
@@ -296,6 +311,21 @@
                         "context_set": ""
                 },
                 {
+                        "tag": "Governing Council",
+                        "patterns": [
+                                "who are the members of Governing council at vnrvjiet?",
+                                "members of governing council.",
+                                "Governing council members",
+                                "DOes the college have a governing council",
+                                "VJ society members?",
+                                "Who all are members of VJ Society?"
+                        ],
+                        "responses": [
+                                "For details about all the members of Governing Council: http://www.vnrvjiet.ac.in/gc.php "
+                        ],
+                        "context_set": ""
+                },
+                {
                         "tag": "hostel",
                         "patterns": [
                                 "hostel facility",
@@ -419,7 +449,7 @@
                                 "food"
                         ],
                         "responses": [
-                                "VNRVJIET has canteen with variety of food available ,types of stalls like \n 1)fast food 2)bakery 3)soft drinks \n 4)Regular meals 5)coffee shop 6)cafeteria"
+                                "VNRVJIET has canteen with variety of food available ,types of stalls like \n 1)fast food \n2)bakery \n3)soft drinks \n4)Regular meals \n5)coffee shop \n6)cafeteria"
                         ],
                         "context_set": ""
                 },
@@ -507,7 +537,67 @@
                                 "name of principal"
                         ],
                         "responses": [
-                                "Dr.C.D Naidu is college principal "
+                                "Dr.C.D Naidu is the principal of VNRVJIET."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "president",
+                        "patterns": [
+                                "what is the name of president",
+                                "what is the president name",
+                                "president name",
+                                "Who is college president",
+                                "president",
+                                "name of president"
+                        ],
+                        "responses": [
+                                "Dr.D.Nageswara Rao is the president of VNRVJIET. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "General secretary",
+                        "patterns": [
+                                "what is the name of general secretary",
+                                "what is the general secretary name",
+                                "General secretary name",
+                                "Who is college General secretary",
+                                "General secretary",
+                                "name of General secretary"
+                        ],
+                        "responses": [
+                                "Sri.K.Harishchandra Prasad is the general secretary of VNRVJIET"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "joint secretary",
+                        "patterns": [
+                                "what is the name of joint secretary",
+                                "what is the joint secretary name",
+                                "Joint secretary name",
+                                "Who is college joint secretary",
+                                "Joint secretary",
+                                "name of joint secretary"
+                        ],
+                        "responses": [
+                                "Sri.Kode Durga Prasad, IPS(Retd.) is the joint secretary of VNRVJIET."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Director",
+                        "patterns": [
+                                "what is the name of director",
+                                "what is the director name",
+                                "director name",
+                                "Who is college director",
+                                "Director",
+                                "name of the director"
+                        ],
+                        "responses": [
+                                "Dr.B.Chennakesava Reddy is the director of VNRVJIET."
                         ],
                         "context_set": ""
                 },
