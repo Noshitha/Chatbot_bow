@@ -21,6 +21,24 @@
                         "context_set": ""
                 },
                 {
+                        "tag": "student chapter",
+                        "patterns": [
+                                "What are different student chapters in VNRVJIET?",
+                                "Student chapters in VNRVJIET",
+                                "Student chapters in IT department?",
+                                "various student chapters in college?",
+                                "Which student chapters are present in VNRVJIET?",
+                                "Are there any student chapters in VNRVJIET?",
+                                "Co-circular activities",
+                                "what contributes students academic development?"
+                        ],
+                        "responses": [
+                                "There are many professional chapters in VNRVJIET that contribute in students co circular activities.\n ISOI -The Society of Instrumentation professionals \n IETE - Institution of Electronics and Telecommunication Engineers \n SAE - Society of Automotive Engineers \n ASME- American Society of Mechanical Engineers \n IEI- Institution of Engineers (India) \n ACM - Association for Computing Machinery \n IEEE - Institute of Electrical and Electronics Engineers \n CSI - Computer Society of India \n ISTE - Indian Society for Technical Education \n CEA ICI and IGBC"
+                        ],
+                        "context_set": ""
+
+                },
+                {
                         "tag": "goodbye",
                         "patterns": [
                                 "cya",
@@ -44,30 +62,51 @@
                         ],
                         "context_set": ""
                 },
-                {"tag": "VNRVJIET",
-                  "patterns": [
-                       "Tell me about VNRVJIET",
-                        "Give me information about VNRVJIET?",
-                        "History of VNRVJIET",
-                        "when was vnrvjiet founded?",
-                        "about VNRVJIET?",
-                        "Ranking of VNRVJIET?",
-                        "VNR ranking",
-                        "Information on VNR",
-                        "Ranking of VNR",
-                        "Rank of vnr",
-                        "rank of vnrvjiet",
-                        "rank of this college",
-                        "significance of college",
-                        "significance of VNR",
-                        "Significance of VNRVJIET",
-                        "Founded by whom",
-                        "Founder of VNRVJIET?",
-                        "Founded of VNR"
+                {
+                        "tag": "VNR",
+                        "patterns": [
+                                "Tell me about VNRVJIET",
+                                "Give me information about VNRVJIET?",
+                                "about VNRVJIET?",
+                                "Ranking of VNRVJIET?",
+                                "VNR ranking",
+                                "Information on VNR"
                                ],
-                      "responses": [
-                    "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (VNRVJIET) is an engineering college in Hyderabad,\n India recognized by All India Council for Technical Education(AICTE) and\n affiliated to the Jawaharlal Nehru Technological University, Hyderabad."
-                      ],
+                        "responses": [
+                                "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (VNRVJIET) is an engineering college in Hyderabad,\n India recognized by All India Council for Technical Education(AICTE) and\n affiliated to the Jawaharlal Nehru Technological University, Hyderabad."
+                                ],
+                          "context_set": ""
+                 
+                },
+                {
+                        "tag": "Vision",
+                        "patterns": [
+                                "VNRVJIET vision for the future?",
+                                "What is the vision of vnrvjiet",
+                                "vision of college",
+                                "VNRVJIET vision",
+                                "VNR visiom",
+                                "Vision on VNR"
+                               ],
+                        "responses": [
+                                "VNRVJIET VISION-To be a World Class University providing value-based education, conducting interdisciplinary research in cutting edge technologies leading to sustainable socio-economic development of the nation."
+                                ],
+                          "context_set": ""
+                 
+                },
+                {
+                        "tag": "Mission",
+                        "patterns": [
+                                "VNRVJIET mission for the future?",
+                                "What is the mission of vnrvjiet",
+                                "mission of college",
+                                "VNRVJIET mission",
+                                "VNR mission",
+                                "Mission on VNR"
+                               ],
+                        "responses": [
+                                "VNRVJIET MISSION-To produce technically competent and socially responsible engineers, managers and entrepreneurs, who will be future ready.\n To involve students and faculty in innovative research projects linked with industry, academic and research institutions in India and abroad.\n To use modern pedagogy for improving the teaching-learning process."
+                                ],
                           "context_set": ""
                  
                 },
@@ -136,7 +175,54 @@
                           "The head of IT department is Dr. G. Suresh Reddy.",
                         "Dr. G. Suresh Reddy is head of IT department and visit  http://www.vnrvjiet.ac.in/hodit.pdf to know more."]
                       },
-                  
+                {
+                        "tag": "IT department",
+                        "patterns":[
+                          "Tell me about IT department?", 
+                          "IT DEPARTMENT", 
+                          "department of Information Technology?",
+                          "Information technology",
+                          "What do you know about IT department",
+                          "briefly about IT department?"
+                        ], 
+                        "responses": [
+                          "The department of Information Technology was established in the year 1997 with an annual intake of 60, increased to 180 in the year 2017. \n M.Tech(CNIS) Programme started in the year 2013 with an intake of 18. \n It has all infrastructural facilities required for imparting high quality education and the department is fully structured to meet the contemporary needs of the industry. \n Imparting high quality education is supported by well qualified and experienced faculty, further support is extended by technically skilled and competent programmers."]
+                },
+                {
+                        "tag": "PG Programs",
+                        "patterns":[
+                          "post graduation programs in vnrvjiet?", 
+                          "PG programs offered at VNRVJIET?", 
+                          "PG courses offered?",
+                          "PG program",
+                          "Post graduation programs"
+                        ], 
+                        "responses": [
+                          "PG PROGRAMMES IN VNRVJIET: \n Master of Technology [M.Tech] (CAD/ CAM)\n Master of Technology [M.Tech] (Computer Science and Engineering)\n Master of Technology [M.Tech] (Electronics and Instrumentation Engineering) \n Master of Technology [M.Tech] (Highway Engineering)\n Master of Technology [M.Tech] (Geo Technical Engineering) \n Master of Technology [M.Tech] (Power Electronics) \n Master of Technology [M.Tech] (Power System Engineering) \n Master of Technology [M.Tech] (Software Engineering) \n Master of Technology [M.Tech] (Structural Engineering) \n Master of Technology [M.Tech] (Computer Networks and Information Technology)\n Master of Technology [M.Tech] (Embedded Systems)"]
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "VNRVJIET is located at Vignana Jyothi Nagar,Pragathi Nagar, Nizampet(S.O, Hyderabad, Telangana 500090.\n Google maps location: https://www.google.com/maps/dir/17.5055792,78.4183459/where+is+vnrvjiet/@17.5226328,78.3893711,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bcb8e0ab28e0975:0x7b048b2858fdee94!2m2!1d78.3862931!2d17.5388821"
+                        ],
+                        "context_set": ""
+                },
                 {
                         "tag": "number",
                         "patterns": [
@@ -195,14 +281,6 @@
                         "context_set": ""
                  },
                  {
-                        "tag": "certification",
-                        "patterns": [
-                        ],
-                        "responses": [" "
-                        ],
-                        "context_set": ""    
-                 },
-                 {
                         "tag":"IT or CSE",
                         "patterns":[
                                 "What is the difference between IT and CSE?",
@@ -254,7 +332,7 @@
                                
                         ],
                         "responses": [
-                                " vnrvjiet has 1)IT 2)CIVIL 3)EEE 4)MECHANICAL 5)ECE 6)CSE 7)EIE 8)AE 9)HUMANITY AND SCIENCES.\n Additionally ,There are many training courses offered in VNRVJIET.\nSpecial coding programs are offered in almost every branch of vnrvjiet.\n In CSE & IT department, they offer training on Full stack, data science,AI, ML and programing languages.\n In EEE,EIE &ECE they offer IOT training sessions. "
+                                " vnrvjiet has 1)IT 2)CIVIL 3)EEE 4)MECHANICAL 5)ECE 6)CSE 7)EIE 8)AE 9)HUMANITY AND SCIENCES.\n Recently new courses under CSE - CS AI/ML \n CS DATA SCIENCE\n CS CYBER SECURITY \n CS IOT\n Additionally ,There are many training courses offered in VNRVJIET.\nSpecial coding programs are offered in almost every branch of vnrvjiet.\n In CSE & IT department, they offer training on Full stack, data science,AI, ML and programing languages.\n In EEE,EIE &ECE they offer IOT training sessions. "
                         ],
                         "context_set": ""
                 },
@@ -426,7 +504,7 @@
                                 "how many libraries"
                         ],
                         "responses": [
-                                "There is one library on first floor besides Show N tell.\n Library timings are 9:00 am to 5:00 pm."
+                                "VNRVJIET has central library on first floor near to Show N tell.\n VNR VJIET has library with a collection of 15444 titles, 73212 volumes and 13861 reference books.\n It is upgraded with Dspace Digital Library Package comprising of more than 2500 e-books and e-articles.\n It also has the membership of DELNET and British Library for resource sharing.\n Library timings are 9:00 am to 5:00 pm."
                         ],
                         "context_set": ""
                 },
@@ -507,7 +585,7 @@
                                 "least package" 
 
                                 ],
-                        "responses": ["85 Global Companies (26 Core Companies) Recruited 955 Students from 2020 Graduating Batch.\n Amazon SDE Offers highest about 28.75 Lakhs per annum package.\n The highest salary package offered for one of the students from the passed-out batch was 43 LPA\nThe average salary package offered was around 5 LPA-7 LPA while the least is 3.75 lpa.\n Visit http://www.vnrvjiet.ac.in/placement.php."],
+                        "responses": ["85 Global Companies (26 Core Companies) Recruited 955 Students from 2020 Graduating Batch.\n Amazon SDE Offers highest about 28.75 Lakhs per annum package.\n The highest salary package offered for one of the students from the passed-out batch was 43 LPA\nThe average salary package offered was around 5 LPA-7 LPA while the least is 3.75 lpa.\n Visit http://www.vnrvjiet.ac.in/placement.php for more information."],
     
                         "context_set": ""
                 },
@@ -597,7 +675,7 @@
                                 "name of the director"
                         ],
                         "responses": [
-                                "Dr.B.Chennakesava Reddy is the director of VNRVJIET."
+                                "Dr.B.Chennakesava Rao is the director of VNRVJIET."
                         ],
                         "context_set": ""
                 },
