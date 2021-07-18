@@ -85,11 +85,44 @@
                                 "What is the vision of vnrvjiet",
                                 "vision of college",
                                 "VNRVJIET vision",
-                                "VNR visiom",
-                                "Vision on VNR"
+                                "VNR vision",
+                                "Vision of VNR"
                                ],
                         "responses": [
                                 "VNRVJIET VISION-To be a World Class University providing value-based education, conducting interdisciplinary research in cutting edge technologies leading to sustainable socio-economic development of the nation."
+                                ],
+                          "context_set": ""
+                 
+                },
+                
+                {
+                        "tag": "Theme",
+                        "patterns": [
+                                "VNRVJIET theme for the future?",
+                                "What is the theme of vnrvjiet",
+                                "theme of college",
+                                "VNRVJIET theme",
+                                "VNR theme",
+                                "theme of VNR"
+                               ],
+                        "responses": [
+                                "VJ THEME-Vignana Jyothi as an educational group believes in our significant differentiators.\n Our first differentiator among their top institutions is that while others focus only on one word SUCCESS, we focus on three vital words, empathy, happiness, and success and in this specific order.\n Our faculty are trained accordingly and they have great pride in it."
+                                ],
+                          "context_set": ""
+                 
+                },
+                {
+                        "tag": "Differentiators",
+                        "patterns": [
+                                "VNRVJIET differentiators till now?",
+                                "What are differentiators of vnrvjiet?",
+                                "differentiators of college",
+                                "VNRVJIET differentiators",
+                                "VNR differentiators",
+                                "differentiators of VNR"
+                               ],
+                        "responses": [
+                                " Career Vision,Induction Program, MTP(Mentoring , training and placement),VNR Lab Protocol, Domain Industry Exposure, Cross Domain Knowledge Centres, Content Development, Development of Rounded Personality, Finishing School, Institute Calendar, Wit and Wil Methodology, Project Arcade, Time management System, Organization structure all of these constitute for college differentiators."
                                 ],
                           "context_set": ""
                  
@@ -276,7 +309,7 @@
 
                         ],
                         "responses": [
-                        "There are 9 clubs 1)STENTORIAN - ENGLISH LITERATURE CLUB 2) VIGNANA JYOTHI SAHITIVANAM - TELUGU LITERATURE CLUB \n;3)VJ THEATRO ; 4) DRAMATRIX;5)SCINTILLATE -PHOTOGRAPHY;\n6)CREATIVE ARTS - ARTS CLUB; 7)LIWE WIRE- DANCE CLUB ;\n 8) NSS - SOCIAL SERVICE CLUB ; 9)CRESCENDO- MUSIC CLUB"
+                        "There are 9 clubs 1)STENTORIAN - ENGLISH LITERATURE CLUB ;\n 2) VIGNANA JYOTHI SAHITIVANAM - TELUGU LITERATURE CLUB \n;3)VJ THEATRO ; 4) DRAMATRIX;5)SCINTILLATE -PHOTOGRAPHY;\n6)CREATIVE ARTS - ARTS CLUB; 7)LIvE WIRE- DANCE CLUB ;\n 8) NSS - SOCIAL SERVICE CLUB ; 9)CRESCENDO- MUSIC CLUB"
                         ],
                         "context_set": ""
                  },
@@ -332,7 +365,7 @@
                                
                         ],
                         "responses": [
-                                " vnrvjiet has 1)IT 2)CIVIL 3)EEE 4)MECHANICAL 5)ECE 6)CSE 7)EIE 8)AE 9)HUMANITY AND SCIENCES.\n Recently new courses under CSE - CS AI/ML \n CS DATA SCIENCE\n CS CYBER SECURITY \n CS IOT\n Additionally ,There are many training courses offered in VNRVJIET.\nSpecial coding programs are offered in almost every branch of vnrvjiet.\n In CSE & IT department, they offer training on Full stack, data science,AI, ML and programing languages.\n In EEE,EIE &ECE they offer IOT training sessions. "
+                                " vnrvjiet has 1)IT 2)CIVIL 3)EEE 4)MECHANICAL 5)ECE 6)CSE 7)EIE 8)AE 9)HUMANITY AND SCIENCES.\n Recently new courses under CSE - CS AI/ML \n CS DATA SCIENCE\n CS CYBER SECURITY \n CS IOT \n CS BS \n Additionally ,There are many training courses offered in VNRVJIET.\nSpecial coding programs are offered in almost every branch of vnrvjiet.\n In CSE & IT department, they offer training on Full stack, data science,AI, ML and programing languages.\n In EEE,EIE &ECE they offer IOT training sessions. "
                         ],
                         "context_set": ""
                 },
@@ -701,6 +734,22 @@
                 },
                 
                 {
+                        "tag": "milestones",
+                        "patterns": [
+                                "What are the milestones of VNRVJIET?",
+                                "milestones",
+                                "Milestones of college till now",
+                                "Milestones of VNRVJIET",
+                                "milestone of VNR",
+                                "Milestones achieved by vnrvjiet",
+                                "Milestones achieved"
+                        ],
+                        "responses": [
+                                "VNR MILESTONES- \n 1. NAAC A++ and Autonomous College with Potential for Excellence by UGC \n 2. Recipient of TEQIP-II Grant from World Bank & FIST from DST \n 3. Accredited by NBA and NIRF Ranking in the band of 101-150 "
+                        ],
+                        "context_set": ""
+                },
+                {
                         "tag": "facilities",
                         "patterns": [
                                 "What facilities college provide",
@@ -712,7 +761,7 @@
                                 "facilities provided"
                         ],
                         "responses": [
-                                "Classrooms and labs are spacious and cleanly maintained. \n There is a huge library with digital library with all kinds of books, from novels to textbooks, and it is the best place to study. \nThe canteen and hostels are also well-maintained, and the food is homely. \n There is a huge sports complex, which is offering all kinds of indoor and outdoor games like table tennis, badminton, carrom, chess, basketball and kabaddi, along with expert guidance. "
+                                "1.The institution has adequate facilities for teaching - learning. viz., classrooms, laboratories, computing equipment, etc \n 2.support facilities - laboratory, library, sports complex, computers, classrooms etc. \n 3.The institution has adequate facilities for sports, games (indoor, outdoor),gymnasium, yoga centre etc., and cultural activities \n 4. Library as a Learning Resource-Library is automated using Integrated Library Management System (ILMS) \n 5.Collection of rare books, manuscripts, special reports or any other knowledge resource for library enrichment \n 6.Institution frequently updates its IT facilities including Wi-Fi ,Maintenance of Campus Infrastructure \n 7.There are established systems and procedures for maintaining and utilizing physical, academic and support facilities - laboratory, library, sports complex, computers, classrooms etc."
                         ],
                         "context_set": ""
                 },
@@ -730,7 +779,7 @@
                                 "seats"
                         ],
                         "responses": [
-                                "For CSE, ECE  240 per branch,\nfor EIE,EEE,MECH,CIVIL 120 per branch,\nfor it 180 per branch. "
+                                "For CSE, ECE  240 per branch,\nfor EIE,EEE,MECH,CIVIL 120 per branch,\nfor IT 180 per branch \n For newly added branches CSBS,CSDS,CSAIML,CSIOT,CS cyber security - 60 per branch"
                         ],
                         "context_set": ""
                 },
@@ -822,7 +871,7 @@
                                 
                         ],
                         "responses":[
-                                "Bus facility available for each route in Hyderabad.For more information visit help desk"
+                                "Bus facility available for each route in Hyderabad.For more information visit help desk at Patrons bhavan ground floor"
                         ]
                 },
                
